@@ -11,9 +11,9 @@ class UI {
         const card = document.createElement('div')
         card.setAttribute('class', 'card')
         card.innerHTML = `
-        <strong>Nombre de Producto</strong>: ${product.name}
-        <strong>Precio</strong>: ${product.price}
-        <strong>Categoria</strong>: ${product.category}
+        <strong>Nombre de Producto:</strong> ${product.name}
+        <strong>Precio:</strong> ${product.price}
+        <strong>Categoria:</strong> ${product.category}
         <a href="#" class="btn_delete" name="delete">Borrar</a>
         `
         cardList.appendChild(card)
